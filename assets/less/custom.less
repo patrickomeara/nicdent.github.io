@@ -91,6 +91,10 @@ h1, h2, h3, h4, h5, h6 {
   .logo-circle{}
   .logo-triangle{}
 }
+.navbar-default .nav li a {
+	margin-right: 20px;
+	margin-top: 0px; 
+}
 .navbar-right{float:right;}
 }
 
@@ -181,10 +185,11 @@ h2{
 	  	height:80px; 	
 	}
     .splash-top{
-     
+    	height:60%;
     }
 	h2{font-size:30px;}
     .splash-bottom{
+    	height:40%;
       background-size: 20px 10px;
     }
   }
@@ -403,7 +408,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e8f4', end
 			padding: 10px;
 			border-radius: 10px;
 	    	img{    
-	    		width:300px;
+	    		width:260px;
 	    	}
 	    }
 		}
@@ -598,8 +603,7 @@ background: -webkit-linear-gradient(45deg, #fbfbfb 0%,#ffffff 100%); /* Chrome10
 background: linear-gradient(45deg, #fbfbfb 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	padding-bottom: 50px;
-	.container{
-		
+	.container{	
 		max-width:650px;
 		padding:30px 50px 40px 50px;
 		background-color:#fff;
@@ -689,16 +693,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', end
  }
     
  @media only screen and (max-width : 768px) {    
+ 	.case-text{
+ 	.container{padding:20px;}
+ 	}
  	header.case-splash{padding-top:80px;}
     .mob-screen{
 	padding: 15px 3px 19px;
 	border-radius: 10px;
-    img{width:80px;}
+    img{width:60px;}
     }
     .desk-screen{
 	padding: 10px;
 	border-radius: 10px;
-    img{width:300px;}
+    img{width:260px;}
     }
     
 }

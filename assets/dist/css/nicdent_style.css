@@ -4585,6 +4585,10 @@ fieldset[disabled] .navbar-default .nav li a.active {
   .navbar-fixed-top {
     position: absolute;
   }
+  .navbar-default .nav li a {
+    margin-right: 20px;
+    margin-top: 0px;
+  }
   .navbar-right {
     float: right;
   }
@@ -4667,10 +4671,14 @@ h2 {
     width: 80px;
     height: 80px;
   }
+  header.splash .splash-top {
+    height: 60%;
+  }
   header.splash h2 {
     font-size: 30px;
   }
   header.splash .splash-bottom {
+    height: 40%;
     background-size: 20px 10px;
   }
   h1.splash-info {
@@ -5029,7 +5037,7 @@ fieldset[disabled] .case-home-feature a.active {
     border-radius: 10px;
   }
   .case-home-feature .desk-screen img {
-    width: 300px;
+    width: 260px;
   }
 }
 /* Small Devices, Tablets */
@@ -5406,6 +5414,9 @@ header.case-splash .feature-text p {
   }
 }
 @media only screen and (max-width: 768px) {
+  .case-text .container {
+    padding: 20px;
+  }
   header.case-splash {
     padding-top: 80px;
   }
@@ -5414,14 +5425,14 @@ header.case-splash .feature-text p {
     border-radius: 10px;
   }
   .mob-screen img {
-    width: 80px;
+    width: 60px;
   }
   .desk-screen {
     padding: 10px;
     border-radius: 10px;
   }
   .desk-screen img {
-    width: 300px;
+    width: 260px;
   }
 }
 

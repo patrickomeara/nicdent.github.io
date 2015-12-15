@@ -676,70 +676,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', end
 }
 
 
-
-
-
-
-
-
-
-
-
-     
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-	.mob-screen{
-	padding: 26px 4px 26px;
-	border-radius: 10px;
-    img{    
-    	width:120px;}
-    }
-    .desk-screen{
-	padding: 20px;
-	border-radius: 10px;
-    img{    
-    	width:460px;
-    	}
-    }
- }
-    
- @media only screen and (max-width : 768px) {    
- 	.case-text{
- 	.container{padding:20px;}
- 	}
- 	header.case-splash{padding-top:80px;}
-    .mob-screen{
-	padding: 15px 3px 19px;
-	border-radius: 10px;
-    img{width:60px;}
-    }
-    .desk-screen{
-	padding: 10px;
-	border-radius: 10px;
-    img{width:260px;}
-    }
-    
-}
-
-
-
-
-
-
 .casepage{
-	
-	
-	
-	
-	
 	background: #ccc; /* Old browsers */
 	background: -moz-linear-gradient(45deg, #ccc 0%, #fff 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(45deg, #ccc 0%,#fff 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(45deg, #ccc 0%,#fff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccc', endColorstr='#fff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-	
-	
-	
 	header.case-splash{
 	background: #eceff1; /* Old browsers */
 	background: -moz-linear-gradient(45deg, #eceff1 0%, #cfd8dc 100%); /* FF3.6-15 */
@@ -766,28 +708,82 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', end
 			}
 		}
 	}
-	
-	
-	
-	
-	
-	
+
 	.desk-screen{
-	position: relative;
-    display: inline-block;
-    padding: 20px;
-    border-radius: 20px;
-    border:1px solid #fff;
-	background: padding-box rgba(255, 255, 255, 0.60);
-	box-shadow: 0 10px 12px 0 rgba(28,67,80,.1);
+
     img{    
     	border: 1px solid #ccc;
 	    border-radius: 0px;
     	width:1000px;
     }
 }
-	
-
-
 
 }
+
+
+
+
+
+
+
+
+     
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.mob-screen{
+	padding: 26px 4px 26px;
+	border-radius: 10px;
+    img{    
+    	width:120px;}
+    }
+    .desk-screen{
+	padding: 20px;
+	border-radius: 10px;
+    img{    
+    	width:460px;
+    	}
+    }
+    
+    .casepage{
+    .desk-screen{
+
+    img{    
+    	width:460px;
+    	}
+    }
+    }
+ }
+    
+ @media only screen and (max-width : 768px) {    
+ 	.case-text{
+ 	.container{padding:20px;}
+ 	}
+ 	header.case-splash{padding-top:80px;}
+    .mob-screen{
+	padding: 15px 3px 19px;
+	border-radius: 10px;
+    img{width:60px;}
+    }
+    .desk-screen{
+	padding: 10px;
+	border-radius: 10px;
+    img{width:260px;}
+    }
+    
+    .casepage{
+	    .desk-screen{
+	
+	    img{    
+	    	width:260px;
+	    	}
+	    }
+    }
+    
+}
+
+
+
+
+
+
+

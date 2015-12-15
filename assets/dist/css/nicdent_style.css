@@ -5396,45 +5396,6 @@ header.case-splash .feature-text p {
   border-radius: 0px;
   width: 150px;
 }
-/* Medium Devices, Desktops */
-@media only screen and (max-width: 992px) {
-  .mob-screen {
-    padding: 26px 4px 26px;
-    border-radius: 10px;
-  }
-  .mob-screen img {
-    width: 120px;
-  }
-  .desk-screen {
-    padding: 20px;
-    border-radius: 10px;
-  }
-  .desk-screen img {
-    width: 460px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .case-text .container {
-    padding: 20px;
-  }
-  header.case-splash {
-    padding-top: 80px;
-  }
-  .mob-screen {
-    padding: 15px 3px 19px;
-    border-radius: 10px;
-  }
-  .mob-screen img {
-    width: 60px;
-  }
-  .desk-screen {
-    padding: 10px;
-    border-radius: 10px;
-  }
-  .desk-screen img {
-    width: 260px;
-  }
-}
 .casepage {
   background: #ccc;
   /* Old browsers */
@@ -5482,19 +5443,55 @@ header.case-splash .feature-text p {
   font-size: 16px;
   padding-bottom: 50px;
 }
-.casepage .desk-screen {
-  position: relative;
-  display: inline-block;
-  padding: 20px;
-  border-radius: 20px;
-  border: 1px solid #fff;
-  background: padding-box rgba(255, 255, 255, 0.6);
-  box-shadow: 0 10px 12px 0 rgba(28, 67, 80, 0.1);
-}
 .casepage .desk-screen img {
   border: 1px solid #ccc;
   border-radius: 0px;
   width: 1000px;
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .mob-screen {
+    padding: 26px 4px 26px;
+    border-radius: 10px;
+  }
+  .mob-screen img {
+    width: 120px;
+  }
+  .desk-screen {
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .desk-screen img {
+    width: 460px;
+  }
+  .casepage .desk-screen img {
+    width: 460px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .case-text .container {
+    padding: 20px;
+  }
+  header.case-splash {
+    padding-top: 80px;
+  }
+  .mob-screen {
+    padding: 15px 3px 19px;
+    border-radius: 10px;
+  }
+  .mob-screen img {
+    width: 60px;
+  }
+  .desk-screen {
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .desk-screen img {
+    width: 260px;
+  }
+  .casepage .desk-screen img {
+    width: 260px;
+  }
 }
 
 /*# sourceMappingURL=nicdent_style.css.map */

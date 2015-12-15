@@ -4580,22 +4580,34 @@ fieldset[disabled] .navbar-default .nav li a.active {
   opacity: 0.80;
   fill: #000;
 }
+.navbar-brand-home {
+  display: none;
+}
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .navbar-fixed-top {
     position: absolute;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .navbar-brand {
+    width: 60px;
+    height: 60px;
+    padding: 0px;
   }
   .navbar-default .nav li a {
-    margin-right: 20px;
-    margin-top: 0px;
+    margin: 0px 10px 0px 0px;
   }
   .navbar-right {
     float: right;
+    margin: 10px 0px;
+  }
+  .navbar-brand-home {
+    display: block;
   }
 }
 header.splash {
   height: 95vh;
-  min-height: 500px;
+  min-height: 600px;
   margin: 0 auto;
   text-align: center;
   border-top: !px solid #ff1744;
@@ -4667,18 +4679,23 @@ h2 {
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+  header.splash {
+    min-height: 540px;
+    max-height: 600px;
+  }
   header.splash .logo-home {
+    display: none;
     width: 80px;
     height: 80px;
   }
   header.splash .splash-top {
-    height: 60%;
+    height: 50%;
   }
   header.splash h2 {
     font-size: 30px;
   }
   header.splash .splash-bottom {
-    height: 40%;
+    height: 50%;
     background-size: 20px 10px;
   }
   h1.splash-info {
@@ -5078,7 +5095,7 @@ fieldset[disabled] .case-home-feature a.active {
 }
 footer {
   background-color: rgba(0, 0, 0, 0.5);
-  margin: 0 auto;
+  margin: 0px auto;
   padding: 50px 0px 50px 0;
   text-align: center;
 }
@@ -5253,7 +5270,7 @@ fieldset[disabled] .contact-modal .options a.active {
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   footer {
-    margin: 0 auto;
+    margin: 0px auto;
     padding: 10px 0px 50px 0;
     text-align: center;
   }
@@ -5446,7 +5463,10 @@ header.case-splash .feature-text p {
 .casepage .desk-screen img {
   border: 1px solid #ccc;
   border-radius: 0px;
-  width: 1000px;
+  width: 900px;
+}
+.casepage footer {
+  margin: 30px auto 0px auto;
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -5465,7 +5485,10 @@ header.case-splash .feature-text p {
     width: 460px;
   }
   .casepage .desk-screen img {
-    width: 460px;
+    width: 600px;
+  }
+  .casepage footer {
+    margin: 30px auto 0px auto;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -5489,8 +5512,14 @@ header.case-splash .feature-text p {
   .desk-screen img {
     width: 260px;
   }
+  .casepage header.case-splash .screens {
+    margin-top: 40px;
+  }
   .casepage .desk-screen img {
-    width: 260px;
+    width: 300px;
+  }
+  .casepage footer {
+    margin: 30px auto 0px auto;
   }
 }
 

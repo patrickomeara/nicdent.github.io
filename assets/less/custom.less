@@ -83,24 +83,34 @@ h1, h2, h3, h4, h5, h6 {
   }
   
 }
+.navbar-brand-home{display:none;}
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-  .navbar-fixed-top{position:absolute;}
-  .navbar-brand{  	
+  .navbar-fixed-top{
+  	position:absolute;
+  	background-color:rgba(255, 255, 255, 0.2);
+  	}
+  .navbar-brand{
+  	width: 60px;
+    height: 60px;
+    padding: 0px;
   .logo-circle{}
   .logo-triangle{}
 }
 .navbar-default .nav li a {
-	margin-right: 20px;
-	margin-top: 0px; 
+	margin: 0px 10px 0px 0px;
 }
-.navbar-right{float:right;}
+.navbar-right{
+	float:right;
+	margin:10px 0px;
+	}
+.navbar-brand-home{display:block;}
 }
 
 header.splash{
   height:95vh;
-  min-height:500px;
+  min-height:600px;
   margin: 0 auto;
   text-align:center;
   border-top:!px solid #ff1744;
@@ -180,16 +190,20 @@ h2{
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
   header.splash{
+  	min-height:540px;
+
+  	max-height:600px;
     .logo-home{
+    	display:none;
 	  	width:80px;
 	  	height:80px; 	
 	}
     .splash-top{
-    	height:60%;
+    	height:50%;
     }
 	h2{font-size:30px;}
     .splash-bottom{
-    	height:40%;
+    	height:50%;
       background-size: 20px 10px;
     }
   }
@@ -475,7 +489,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e8f4', end
 
 footer{
   background-color:rgba(0, 0, 0, 0.5);
-  margin: 0 auto;
+  margin: 0px auto;
   padding: 50px 0px 50px 0;
   text-align:center;
 
@@ -532,7 +546,7 @@ footer{
 /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
       footer{
-        margin: 0 auto;
+        margin: 0px auto;
         padding: 10px 0px 50px 0;
         text-align:center;
         h2{
@@ -710,13 +724,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', end
 	}
 
 	.desk-screen{
-
     img{    
     	border: 1px solid #ccc;
 	    border-radius: 0px;
-    	width:1000px;
+    	width:900px;
     }
 }
+footer{
+        margin: 30px auto 0px auto;
+    }
 
 }
 
@@ -748,8 +764,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', end
     .desk-screen{
 
     img{    
-    	width:460px;
+    	width:600px;
     	}
+    }
+    footer{
+        margin: 30px auto 0px auto;
     }
     }
  }
@@ -771,12 +790,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', end
     }
     
     .casepage{
+    	header.case-splash{
+    		.screens{margin-top:40px;}
+    		}
 	    .desk-screen{
-	
+		
 	    img{    
-	    	width:260px;
+	    	width:300px;
 	    	}
 	    }
+	    footer{
+        margin: 30px auto 0px auto;
+    }
     }
     
 }

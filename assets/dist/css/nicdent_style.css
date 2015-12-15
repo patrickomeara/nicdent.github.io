@@ -5435,5 +5435,66 @@ header.case-splash .feature-text p {
     width: 260px;
   }
 }
+.casepage {
+  background: #ccc;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #cccccc 0%, #ffffff 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #cccccc 0%, #ffffff 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #cccccc 0%, #ffffff 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc', endColorstr='#fff', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+.casepage header.case-splash {
+  background: #eceff1;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #eceff1 0%, #cfd8dc 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #eceff1 0%, #cfd8dc 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #eceff1 0%, #cfd8dc 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eceff1', endColorstr='#cfd8dc', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  padding-top: 50px;
+}
+.casepage header.case-splash .screens {
+  margin-top: 0px;
+}
+.casepage header.case-splash .row {
+  text-align: center;
+}
+.casepage header.case-splash .feature-text {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.casepage header.case-splash .feature-text h2 {
+  font-size: 40px;
+  padding-bottom: 0px;
+  line-height: 1;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.casepage header.case-splash .feature-text p {
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+.casepage .desk-screen {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  background: padding-box rgba(255, 255, 255, 0.6);
+  box-shadow: 0 10px 12px 0 rgba(28, 67, 80, 0.1);
+}
+.casepage .desk-screen img {
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  width: 1000px;
+}
 
 /*# sourceMappingURL=nicdent_style.css.map */

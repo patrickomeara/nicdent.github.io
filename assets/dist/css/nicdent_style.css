@@ -29,7 +29,7 @@ summary {
 }
 audio,
 canvas,
-progress,
+progress,h1.splash-info
 video {
   display: inline-block;
   vertical-align: baseline;
@@ -4439,7 +4439,7 @@ h6 {
   background-color: #ffffff;
   border-color: #cccccc;
   font-weight: 700;
-  border-radius: 0px;
+  border-radius: 5px;
   color: #ff1744;
   transition: all .5s;
   margin: 20px 0px;
@@ -4448,7 +4448,7 @@ h6 {
   margin-right: 40px;
   margin-top: 20px;
   border: none;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 1);
   color: #3D5AFE;
   box-shadow: 0 0 22px 0 rgba(28, 67, 80, 0.05);
 }
@@ -4615,13 +4615,15 @@ header.splash {
 header.splash h2 {
   line-height: 90px;
   font-size: 36px;
+  color:#000;
 }
 header.splash .splash-top {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.3);
   position: relative;
   height: 50%;
 }
 header.splash .splash-bottom {
+
   position: relative;
   height: 50%;
 }
@@ -4633,7 +4635,7 @@ header.splash .splash-bottom .down-arrow svg {
   bottom: 20px;
 }
 header.splash .splash-bottom .down-arrow svg .down-svg {
-  fill: #3d5afe;
+  fill: #fff;
 }
 .logo-home {
   margin: 0 auto;
@@ -4641,17 +4643,17 @@ header.splash .splash-bottom .down-arrow svg .down-svg {
   height: 120px;
 }
 .logo-home .logo-circle {
-  opacity: 0.30;
+  opacity: .20;
   fill: #000;
 }
 .logo-home .logo-triangle {
-  opacity: 0.80;
+  opacity: 0.8;
   fill: #000;
 }
 h1.splash-info {
   font-family: 'lato', sans-serif;
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.8);
+  color: #000;
   font-weight: 400;
   font-style: normal;
 }
@@ -4668,8 +4670,8 @@ h1.splash-info img {
   background-size: 110px 130px;
   padding-top: 20px;
 }
-.splash-intro-end h2 {
-  color: #3d5afe;
+.splash-bottom .splash-intro-end h2 {
+  color: #000;
 }
 h2 {
   font-size: 30px;
@@ -4876,7 +4878,7 @@ h2 {
   color: #333;
   line-height: 1;
 }
-.case-home-feature a {
+.case-home-feature a,  .case-text a {
   display: inline-block;
   margin-bottom: 0;
   font-weight: normal;
@@ -4897,17 +4899,20 @@ h2 {
   user-select: none;
   color: #333333;
   background-color: #ffffff;
-  border-color: #cccccc;
+  border-color: #fff;
   width: 140px;
   font-weight: 700;
   line-height: 1.6;
-  border-radius: 0px;
-  border: #3d5afe 1px solid;
-  background-color: transparent;
+  border-radius: 5px;
+  
+  
   color: #3d5afe;
   transition: all .5s;
   margin: 20px 0px;
   float: left;
+}
+.case-text a {
+  border-color: #f3f3f3;
 }
 .case-home-feature a:focus,
 .case-home-feature a:active:focus,
@@ -5158,7 +5163,7 @@ footer .copyright {
   width: 180px;
   font-weight: 700;
   line-height: 24px;
-  border-radius: 0px;
+  border-radius: 5px;
   border: #fff 1px solid;
   background-color: #fff;
   color: #3D5AFE;
@@ -5210,7 +5215,7 @@ fieldset[disabled] a.contact-modal .options a {
 }
 .contact-modal .options a:hover {
   color: #333333;
-  background-color: #e6e6e6;
+  background-color: #fff;
   border-color: #adadad;
 }
 .contact-modal .options a:active,
@@ -5230,7 +5235,7 @@ fieldset[disabled] a.contact-modal .options a {
 .contact-modal .options a.active.focus,
 .open > .dropdown-toggle.contact-modal .options a.focus {
   color: #333333;
-  background-color: #d4d4d4;
+  background-color: #fff;
   border-color: #8c8c8c;
 }
 .contact-modal .options a:active,
@@ -5346,7 +5351,7 @@ header.case-splash .feature-text p {
   padding-bottom: 50px;
 }
 .case-text .container {
-  max-width: 650px;
+  max-width: 700px;
   padding: 30px 50px 40px 50px;
   background-color: #fff;
 }
